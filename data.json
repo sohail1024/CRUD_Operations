@@ -33,14 +33,6 @@
       "rollnumber": "4"
     },
     {
-      "name": "kwqjebol",
-      "firstname": ";kqlwjbe",
-      "lastname": "k;asjbdb",
-      "rollnumber": "1",
-      "age": 15,
-      "id": 19
-    },
-    {
       "name": "abc",
       "firstname": "xyz",
       "lastname": "abc",
@@ -96,7 +88,9 @@
     },
     {
       "subname": "physics",
-      "mainbooks": "ncert",
+      "mainbooks": [
+        "Mathematics NCERT"
+      ],
       "id": 2
     },
     {
