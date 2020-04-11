@@ -17,12 +17,111 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="">
+
+
+  <!-- Custom fonts for this template-->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <!--link href="css/sb-admin-2.min.css" rel="stylesheet"-->
 </head>
-<body>
-<div class="text-center">
-  <ul class="menu">
-    <li><a href="#!/view1">Manage Students</a></li>
-    <!--li><a href="#">Manage Users</a></li-->
+<body id="page-top">
+
+  <!-- Page Wrapper -->
+  <div id="wrapper">
+
+    <!-- Sidebar -->
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+
+      <!-- Sidebar - Brand -->
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-laugh-wink"></i>
+        </div>
+        <div class="sidebar-brand-text mx-3">DRST Admin <sup>2</sup></div>
+      </a>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider my-0">
+
+      <!-- Nav Item - Dashboard -->
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">
+          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <span>Dashboard</span></a>
+      </li>
+
+            <hr class="sidebar-divider">
+
+
+      <!-- Nav Item - Dashboard -->
+    
+
+      <!-- Divider -->
+   
+
+        <!-- Nav Item - Pages Collapse Menu -->
+     
+
+  <li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Manage Education:</span>
+        </a>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <!--h6 class="collapse-header">Manage Education:</h6-->
+                        <a class="collapse-item" href="#!/view1">Manage Students</a>
+
+            <a class="collapse-item" href="#!/subject">Subject</a>
+            <a class="collapse-item" href="#!/class">Class</a>
+                        <a class="collapse-item" href="#">Offline Exams</a>
+
+            <a class="collapse-item" href="#!/onlineexams">Online Exams</a>
+
+          </div>
+        </div>
+      </li>
+<li class="nav-item">
+        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseTwo">
+          <i class="fas fa-fw fa-cog"></i>
+          <span>Admin</span>
+        </a>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
+          <div class="bg-white py-2 collapse-inner rounded">
+            <!--h6 class="collapse-header">Custom Components:</h6-->
+            <a class="collapse-item" href="#">Accounts</a>
+            <a class="collapse-item" href="#!/dormitories">Dormitories</a>
+                        <a class="collapse-item" href="#!/manageOffice">Manage Office</a>
+
+            <a class="collapse-item" href="#!/transport">Transport</a>
+
+          </div>
+        </div>
+      </li>
+      <!-- Nav Item - Dashboard -->
+     
+      <!-- Divider -->
+     
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Sidebar Toggler (Sidebar) -->
+      <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+      </div>
+
+    </ul>
+<div class="row">
+
+  <div class="col-md">
+    <ul>
+     <!--li><a href="#!/view1">Manage Students</a></li>
+   
     <li><a href="#!/subject">Subject</a></li>
         <li><a href="#!/teacher">Teacher</a></li>
                 <li><a href="#!/class">Class</a></li>
@@ -37,17 +136,11 @@
     <li><a href="#!/transport">Transports</a></li>
     <li><a href="#!/studyMaterial">Study Materials</a></li>
     <li><a href="#!/dormitories">Dormitories</a></li>
-        <!--li><a href="#">Global Settings</a></li-->
-
   </ul>
+  </div>
+  <div class="col-md-5" >sohail saab</div-->
+  <div class="col-md-12" ng-view></div>
 </div>
-
-  <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-  <![endif]-->
-
-  <div ng-view></div>
-
   <!--div><span app-version></span></div-->
 
   <!-- In production use:

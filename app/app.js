@@ -27,6 +27,8 @@ angular.module('myApp', [
 
                            'myApp.teacher',
                                                       'myApp.addteacher',
+                           'myApp.onlineexams',
+
 
 
 
